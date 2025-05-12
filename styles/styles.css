@@ -1,0 +1,30 @@
+#title {
+    position: relative;
+    text-align: center;
+    font-family: Arial, sans-serif;
+    font-size: 40px;
+    color: #333;
+}
+#title:hover {
+    color: #007BFF;
+    text-decoration: underline;
+}
+
+.box {
+    position: relative;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+    margin: 10px;
+    border: 1px solid black;
+    background-color: #f0f0f0;
+}
+
+button {
+    padding: 8px 16px;
+    position: relative;
+    align-items: center;
+    margin: 5px;
+    cursor: pointer;
+}
